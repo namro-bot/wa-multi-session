@@ -1,6 +1,6 @@
 {
   "name": "wa-multi-session",
-  "version": "4.3.0",
+  "version": "4.3.1",
   "description": "Multi Session Whatsapp Library",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,6 +9,7 @@
   ],
   "scripts": {
     "build": "tsc",
+    "lint": "tsc --noEmit",
     "start": "tsc && node ./dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,7 +17,7 @@
   "license": "ISC",
   "dependencies": {
     "@hapi/boom": "^10.0.1",
-    "baileys": "7.0.0-rc.6",
+    "baileys": "7.0.0-rc14",
     "link-preview-js": "^3.0.14",
     "mime": "^3.0.0",
     "pino": "^9.5.0",
